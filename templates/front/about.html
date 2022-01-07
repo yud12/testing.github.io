@@ -1,0 +1,28 @@
+{% extends 'front/base.html' %} {% load static %} {% block content %}
+<div class="wrapper">
+    <div class="profile-content section">
+        <div class="container">
+            <div class="row">
+                <div class="profile-picture">
+                    <div class="fileinput fileinput-new" data-provides="fileinput">
+                        <br></br>
+                        <div class="fileinput-new img-no-padding">
+                            <img src="{% static 'front/img/faces/Yuda Darusman 1.jpg' %}" alt="...">
+                        </div>
+                        <div class="name">
+                            <h4 class="title text-center">Yuda Darusman<br /><small>1911102441109</small></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ml-auto mr-auto text-center">
+                    <p>An artist of considerable range, Chet Faker — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. </p>
+                    <br />
+                </div>
+            </div>
+            <br />
+        </div>
+    </div>
+</div>
+{% endblock content %}
